@@ -1,0 +1,20 @@
+Source: guppi-daq
+Section: science
+Priority: optional
+Maintainer: KERN packaging <packaging@kernsuite.info>
+Build-Depends: debhelper (>=9), dh-python, python-all
+Standards-Version: 3.9.8
+Homepage: https://github.com/demorest/guppi_daq
+X-Python-Version: >= 2.6
+
+Package: python-guppi-daq
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends},
+ ${python:Depends},
+ python-shm,
+ python-mysqldb,
+ python-matplotlib,
+ python-numpy,
+ python-slalib
+Description:  Data aquisition software for GUPPI

@@ -1,0 +1,7 @@
+.debhelper/
+files
+*.debhelper.log
+*.postinst.debhelper
+*.prerm.debhelper
+*.substvars
+python-guppi-daq/

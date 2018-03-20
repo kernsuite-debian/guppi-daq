@@ -1,0 +1,158 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: guppi-daq
+Source: https://github.com/demorest/guppi_daq
+
+Files:     debian/*
+Copyright: 2018 Gijs Molenaar <gijs@pythonic.nl>
+License:   MIT
+
+Files:     README
+           bin/guppi2_fold
+           bin/guppi2_search
+           bin/guppi2_stop
+           bin/guppi_adc_hist
+           bin/guppi_control
+           bin/guppi_fold
+           bin/guppi_gbtstatus_loop.py
+           bin/guppi_gpu_push
+           bin/guppi_gpu_status
+           bin/guppi_init_shmem
+           bin/guppi_monitor
+           bin/guppi_offsets
+           bin/guppi_reset_shmem
+           bin/guppi_search
+           bin/guppi_set_params
+           bin/guppi_status
+           gpu_nodes.cfg
+           guppi.bash
+           guppi.csh
+           python/GBTStatus.py
+           python/Makefile
+           python/__init__.py
+           python/_possem.so
+           python/astro_utils.py
+           python/guppi2_utils.py
+           python/guppi_load_design.py
+           python/guppi_set_params.py
+           python/guppi_set_params_gbt.py
+           python/guppi_set_params_parspec.py
+           python/guppi_set_scannum.py
+           python/guppi_simple_monitor.py
+           python/guppi_status_monitor.py
+           python/guppi_utils.py
+           python/plot_adc_hist.py
+           python/possem.i
+           python/possem.py
+           python/possem_wrap.c
+           python/psr_constants.py
+           setup.py
+           src/Makefile
+           src/check_guppi_databuf.c
+           src/check_guppi_status.c
+           src/clean_guppi_shmem.c
+           src/downsample.c
+           src/f77.h
+           src/find_dropped_blocks.c
+           src/fix_psrfits_polyco.c
+           src/fold.c
+           src/fold.h
+           src/fold_psrfits.c
+           src/guppi_PSRFITS_v3.4_fold_template.txt
+           src/guppi_PSRFITS_v3.4_search_template.txt
+           src/guppi_daq.c
+           src/guppi_daq_fold.c
+           src/guppi_daq_server.c
+           src/guppi_databuf.c
+           src/guppi_databuf.h
+           src/guppi_error.c
+           src/guppi_error.h
+           src/guppi_fold_thread.c
+           src/guppi_net_thread.c
+           src/guppi_null_thread.c
+           src/guppi_params.c
+           src/guppi_params.h
+           src/guppi_psrfits_thread.c
+           src/guppi_rawdisk_thread.c
+           src/guppi_status.c
+           src/guppi_status.h
+           src/guppi_thread_args.c
+           src/guppi_thread_args.h
+           src/guppi_thread_main.h
+           src/guppi_threads.h
+           src/guppi_time.c
+           src/guppi_time.h
+           src/guppi_udp.c
+           src/guppi_udp.h
+           src/misc_utils.c
+           src/polyco.c
+           src/polyco.h
+           src/polyco_struct.h
+           src/psrfits.h
+           src/psrfits_singlepulse.c
+           src/psrfits_subband.c
+           src/psrfits_subband_cmd.cli
+           src/read_psrfits.c
+           src/sla.c
+           src/test_net_thread.c
+           src/test_psrfits.c
+           src/test_psrfits_read.c
+           src/test_udp_recv.c
+           src/unlock_guppi_status.c
+           src/write_psrfits.c
+           test/guppi_monitor
+           test/guppi_monitor_parspec
+           test/guppi_monitor_plotonly
+           test/guppi_start_data
+           test/guppi_stop_data
+           test/makepoly
+           test/reset_shmem
+Copyright: __NO_COPYRIGHT_NOR_LICENSE__
+License:   GPL-1
+
+Files:     src/fitshead.h
+           src/hget.c
+           src/hput.c
+           src/psrfits_subband_cmd.c
+           src/psrfits_subband_cmd.h
+Copyright: 1994-2007 Smithsonian Astrophysical Observatory, Cambridge, MA, USA
+           1995-2004 Harald Kirsch (clig@geggus.net)
+License:   GPL-1
+
+Files:     src/slalib.h
+Copyright: __NO_COPYRIGHT__ in: src/slalib.h
+License:   GPL-2.0+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307
+ USA.
+ .
+ Last revision:   10 December 2002
+ .
+ The FSF address in the above text is the old one.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 2 can be found in `/usr/share/common-licenses/GPL-2'.
+
+Files:     src/psrfits_subband.1
+Copyright: 1995-2004 Harald Kirsch (clig@geggus.net)
+License:   GPL-1
+ This file was generated by
+ clig -- command line interface generator
+ .
+ Clig will always edit the lines between pairs of `cligPart ...',
+ but will not complain, if a pair is missing. So, if you want to
+ make up a certain part of the manual page by hand rather than have
+ it edited by clig, remove the respective pair of cligPart-lines.
+ .
+ cligPart TITLE
+
